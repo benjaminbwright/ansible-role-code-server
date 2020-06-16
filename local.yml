@@ -2,6 +2,7 @@
 ---
 - hosts: localhost
   gather_facts: yes
+  become: yes
   roles:
     - name: code_server
       code_server_password: SuperSecret
