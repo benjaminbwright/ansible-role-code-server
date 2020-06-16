@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: all
   gather_facts: yes
   roles:
     - name: pallxk.code_server
